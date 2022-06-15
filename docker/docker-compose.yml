@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  cache:
+    image: redis:latest
+    command: redis-server --requirepass redis
+    ports:
+      - '6377:6379'
+  cache2:
+    image: redis:latest
+    command: redis-server --requirepass redis
+    ports:
+      - '6376:6379'
