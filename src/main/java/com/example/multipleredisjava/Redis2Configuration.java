@@ -14,8 +14,6 @@ import java.time.Duration;
 @Configuration
 public class Redis2Configuration {
 
-    @Autowired
-    private Redis2 redis1Property;
 
     @Bean(name = "redis2ConnectionFactory")
     public RedisConnectionFactory userRedisConnectionFactory() {

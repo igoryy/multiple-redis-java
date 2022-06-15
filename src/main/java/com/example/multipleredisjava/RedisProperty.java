@@ -10,5 +10,4 @@ public class RedisProperty {
         private String host;
         private int port;
         private int database;
-        //getters setters
 }
